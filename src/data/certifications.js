@@ -10,10 +10,10 @@ export const certifications = [
   },
   {
     id: 2,
-    name: 'Understanding Prompt Engineering',
+    name: 'Software Development with Cursor',
     issuer: 'DataCamp',
     icon: SiDatacamp,
-    verifyLink: 'https://www.datacamp.com/statement-of-accomplishment/course/acbed372149abc745a84dea9461269c4ae9d8343?raw=1',
+    verifyLink: 'https://www.datacamp.com/statement-of-accomplishment/course/bbe911eba67af6d81c5ca39eb12d66baa51b4c18?raw=1',
   },
   {
     id: 3,
@@ -56,5 +56,12 @@ export const certifications = [
     issuer: 'DataCamp',
     icon: SiDatacamp,
     verifyLink: 'https://www.datacamp.com/statement-of-accomplishment/course/5a946f8e3494a5ee854c74e5f136ff9dadee784f?raw=1',
+  },
+   {
+    id: 9,
+    name: 'Understanding Prompt Engineering',
+    issuer: 'DataCamp',
+    icon: SiDatacamp,
+    verifyLink: 'https://www.datacamp.com/statement-of-accomplishment/course/acbed372149abc745a84dea9461269c4ae9d8343?raw=1',
   },
 ]

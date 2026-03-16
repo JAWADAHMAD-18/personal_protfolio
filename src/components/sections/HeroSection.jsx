@@ -21,7 +21,7 @@ const HeroSection = () => {
           <img
             src="/profile.png"
             alt="Jawad Profile"
-            className="w-[220px] h-[220px] md:w-[220px] md:h-[220px] rounded-full object-cover border-[6px] border-accent shadow-[0_12px_48px_rgba(197,157,95,0.33)]"
+            className="w-[220px] h-[220px] md:w-[230px] md:h-[240px] rounded-full object-cover border-[6px] border-accent shadow-[0_12px_48px_rgba(197,157,95,0.33)]"
           />
         </motion.div>
         <motion.div

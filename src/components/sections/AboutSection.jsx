@@ -16,7 +16,7 @@ const AboutSection = () => {
             className="w-full md:w-5/12 mb-6 md:mb-0"
           >
             <img
-              src="/about.jpg"
+              src="/profile.png"
               alt="About Jawad"
               className="w-full rounded-2xl shadow-lg"
             />
