@@ -5,7 +5,7 @@ import { useDualTypingEffect } from '../../hooks/useTypingEffect'
 const HeroSection = () => {
   const { nameDisplay, subtitleDisplay, showName, showSubtitle } = useDualTypingEffect(
     'Jawad Ahmad  ',
-    'Full-Stack Developer | MERN Stack | AI Integration'
+    'Full-Stack Developer | AI Automation Engineer'
   )
 
   return (
@@ -47,11 +47,12 @@ const HeroSection = () => {
             <span className="text-md md:text-md px-3 py-1 bg-accent/20 text-accent rounded-full font-medium">
               AI Integration
             </span>
+            <span className="text-md md:text-md px-3 py-1 bg-accent/20 text-accent rounded-full font-medium">
+              AI Automation
+            </span>
           </div>
           <p className="text-lg mb-3 max-w-2xl">
-            Full-stack developer with 2+ years of coding experience building production-ready applications. 
-            I specialize in MERN stack development, Django backend systems, and AI integration. 
-            My focus is on creating scalable, efficient solutions that solve real-world problems.
+            Full-stack developer and Computer Science graduate with 2+ years of coding experience building production-ready applications. I specialize in MERN stack development, Django backend systems, and AI automation — including conversational voice agents and workflow automation using n8n, VAPI, and LLM APIs. My focus is on creating scalable, efficient solutions that solve real-world problems.
           </p>
           <div className="flex flex-wrap justify-center md:justify-start items-center mt-3 gap-6">
             <a

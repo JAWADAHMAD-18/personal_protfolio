@@ -17,9 +17,20 @@ export const projects = [
       "Google OAuth",
     ],
   },
-
   {
     id: 2,
+    title: "Ahmed - AI Voice Receptionist",
+    description:
+      "Conversational AI voice agent that handles clinic calls in real time, answering queries and booking appointments using natural speech.",
+    image: "/aiagent.jpeg",
+    category: "aibots",
+    liveLink:
+      "https://drive.google.com/file/d/1bZFApV_LVfz_MGQCJhSe-NH5kV-bl2If/view?usp=sharing",
+    techStack: ["VAPI", "ElevenLabs", "Groq", "n8n"],
+  },
+
+  {
+    id: 3,
     title: "Student Guidance Portal",
     description: "Django-based platform to connect students and teachers.",
     image: "/project2.jpg",
@@ -28,7 +39,7 @@ export const projects = [
     techStack: ["Django", "Python", "HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Rolex Frontend",
     description: "A modern frontend for a Rolex-themed website.",
     image: "/rolex.png",
@@ -38,7 +49,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "BizTrack",
     description: "A full-stack business management app built with Appwrite.",
     image: "/biztrack.png",
@@ -47,7 +58,7 @@ export const projects = [
     techStack: ["React.js", "Appwrite", "Tailwind CSS", "JavaScript"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Blogging Platform",
     description: "A full-stack blogging platform using Appwrite.",
     image: "/myblog.png",
@@ -57,7 +68,7 @@ export const projects = [
   },
   
   // {
-  //   id: 7,
+  //   id: 8,
   //   title: 'CV Maker',
   //   description: 'A CV maker website using React.js and Tailwind CSS.',
   //   image: '/project3.jpg',
@@ -66,7 +77,7 @@ export const projects = [
   //   techStack: ['React.js', 'Tailwind CSS', 'JavaScript'],
   // },
   {
-    id: 6,
+    id: 7,
     title: "Bata Clone",
     description: "A Clone page of Bata.Com fully responsive",
     image: "/project1.jpg",
@@ -75,7 +86,7 @@ export const projects = [
     techStack: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 7,
+    id: 8,
     title: "AI Chatbot & Rule-Based Bot",
     description: "AI-powered and rule-based chatbot for my portal.",
     image: "/chatbot.png",

@@ -14,4 +14,9 @@ export const services = [
     title: 'Website Repair',
     description: 'Fixing issues, troubleshooting, and performance optimization.',
   },
+  {
+    icon: 'fa-robot',
+    title: 'AI Automation',
+    description: 'Building AI voice agents and workflow automations using VAPI, n8n, and LLM APIs.',
+  },
 ]

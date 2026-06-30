@@ -17,7 +17,7 @@ const ServicesSection = () => {
         >
           <i className="fas fa-cogs mr-2 text-accent"></i>Services
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
           {services.map((service, index) => (
             <ServiceCard key={service.title} service={service} index={index} />
           ))}
