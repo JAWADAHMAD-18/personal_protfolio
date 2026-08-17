@@ -28,9 +28,37 @@ export const projects = [
       "https://drive.google.com/file/d/1bZFApV_LVfz_MGQCJhSe-NH5kV-bl2If/view?usp=sharing",
     techStack: ["VAPI", "ElevenLabs", "Groq", "n8n"],
   },
-
   {
     id: 3,
+    title: "Hisab Kitab",
+    description:
+      "AI-powered personal finance tracker with monthly expense/income tracking, WhatsApp voice-note logging, and LLM-generated narrative email reports.",
+    image: "/portfolioHisabKitab.png",
+    category: "fullstacked",
+    liveLink: "https://hissab-kitab-eosin.vercel.app/",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "NextAuth.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Groq",
+    ],
+  },
+  {
+    id: 4,
+    title: "WhatsApp Auto-Reply Assistant",
+    description:
+      "Personal WhatsApp bot that auto-replies in your own texting style, with tiered contact routing, voice-note transcription, and a self-approval flow for sensitive topics.",
+    image: "/portfolioWhatsappBot.png",
+    category: "aibots",
+    liveLink: "",
+    techStack: ["Baileys", "Groq", "Groq Whisper", "MongoDB", "Node.js"],
+  },
+
+  {
+    id: 5,
     title: "Student Guidance Portal",
     description: "Django-based platform to connect students and teachers.",
     image: "/project2.jpg",
@@ -39,7 +67,7 @@ export const projects = [
     techStack: ["Django", "Python", "HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 4,
+    id: 6,
     title: "Rolex Frontend",
     description: "A modern frontend for a Rolex-themed website.",
     image: "/rolex.png",
@@ -49,7 +77,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "BizTrack",
     description: "A full-stack business management app built with Appwrite.",
     image: "/biztrack.png",
@@ -58,7 +86,7 @@ export const projects = [
     techStack: ["React.js", "Appwrite", "Tailwind CSS", "JavaScript"],
   },
   {
-    id: 6,
+    id: 8,
     title: "Blogging Platform",
     description: "A full-stack blogging platform using Appwrite.",
     image: "/myblog.png",
@@ -77,7 +105,7 @@ export const projects = [
   //   techStack: ['React.js', 'Tailwind CSS', 'JavaScript'],
   // },
   {
-    id: 7,
+    id: 9,
     title: "Bata Clone",
     description: "A Clone page of Bata.Com fully responsive",
     image: "/project1.jpg",
@@ -85,13 +113,13 @@ export const projects = [
     liveLink: "https://bata-clone-page.vercel.app/",
     techStack: ["HTML5", "CSS3", "JavaScript"],
   },
-  {
-    id: 8,
-    title: "AI Chatbot & Rule-Based Bot",
-    description: "AI-powered and rule-based chatbot for my portal.",
-    image: "/chatbot.png",
-    category: "aibots",
-    liveLink: "https://jawad2004.pythonanywhere.com/",
-    techStack: ["Python", "Django", "AI Integration", "Rule-based Logic"],
-  },
+  // {
+  //   id: 8,
+  //   title: "AI Chatbot & Rule-Based Bot",
+  //   description: "AI-powered and rule-based chatbot for my portal.",
+  //   image: "/chatbot.png",
+  //   category: "aibots",
+  //   liveLink: "https://jawad2004.pythonanywhere.com/",
+  //   techStack: ["Python", "Django", "AI Integration", "Rule-based Logic"],
+  // },
 ];
