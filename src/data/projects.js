@@ -53,7 +53,7 @@ export const projects = [
       "Personal WhatsApp bot that auto-replies in your own texting style, with tiered contact routing, voice-note transcription, and a self-approval flow for sensitive topics.",
     image: "/portfolioWhatsappBot.png",
     category: "aibots",
-    liveLink: "",
+    liveLink: "https://github.com/JAWADAHMAD-18/whatsapp_bot",
     techStack: ["Baileys", "Groq", "Groq Whisper", "MongoDB", "Node.js"],
   },
 
